@@ -1,0 +1,36 @@
+{
+  "name": "flow-detect",
+  "version": "1.0.0",
+  "description": "Detect all files without @flow comment",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcastelly/flow-detect.git"
+  },
+  "keywords": [
+    "flow",
+    "javascript"
+  ],
+ "bin": {
+    "flow-detect": "src/index.js"
+  },
+  "author": "Thomas CASTELLY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcastelly/flow-detect/issues"
+  },
+  "homepage": "https://github.com/tcastelly/flow-detect#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}
